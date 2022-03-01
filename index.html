@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Dashboard</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- material icons cdn -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section id="left-container">
+            <aside id="left-side" class="left-side">
+                <div class="top flex">
+                    <div class="logo-container flex">
+                        <img class="logo-img" src="images/softmind-short-logo.png" width="50px" alt="">
+                        <h3><span class="logo-main-color">s</span>oft<span
+                                class="logo-secondary-color">mind</span>.agenc<span class="logo-main-color">y</span>
+                        </h3>
+                    </div>
+                    <div id="close-button" class="close-button">
+                        <span class="material-icons-sharp ">
+                            close
+                        </span>
+                    </div>
+                </div>
+                <div class="side-menus">
+                    <a href="#" class="flex active">
+                        <span class="material-icons-sharp">
+                            grid_view
+                        </span>
+                        <h4>Dashboard</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            person_outline
+                        </span>
+                        <h4>Customer's</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            receipt_long
+                        </span>
+                        <h4>Orders</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            insights
+                        </span>
+                        <h4>Analytics</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            mail_outline
+                        </span>
+                        <h4>Massages <span class="massage-count"> 26</span></h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            credit_score
+                        </span>
+                        <h4>Products</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            report_gmailerrorred
+                        </span>
+                        <h4>Reports</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            settings
+                        </span>
+                        <h4>Settings</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h4>Add Products</h4>
+                    </a>
+                    <a href="#" class="flex">
+                        <span class="material-icons-sharp">
+                            logout
+                        </span>
+                        <h4>Log out</h4>
+                    </a>
+                </div>
+            </aside>
+        </section>
+
+        <!-- ==========main section======== -->
+
+        <main class="main-section-container">
+            <h1>Dashboard</h1>
+            <div class="date-container ">
+                <input type="date"><span class="material-icons-sharp">
+                    cancel
+                </span>
+            </div>
+            <div class="cards-container flex">
+                <!-- card-1 -->
+                <div class="card total-sales flex">
+                    <article>
+                        <span class="material-icons-sharp card-analytics">
+                            analytics
+                        </span>
+                        <h4>Total Sales</h4>
+                        <h3>$25,024</h3>
+                        <br>
+                        <p class="last-hours">Last 24 Hours</p>
+                    </article>
+                    <div class="card-diagram">
+                        <svg>
+                            <circle class="card-circle-1" cx="38" cy="38" r="36">
+                            </circle>
+                        </svg>
+                    </div>
+                    <h6>90%</h6>
+                </div>
+                <!-- card-2 -->
+                <div class="card total-expense flex">
+                    <article>
+                        <span class="material-icons-sharp card-analytics">
+                            analytics
+                        </span>
+                        <h4>Total Expense</h4>
+                        <h3>$25,024</h3>
+                        <br>
+                        <p class="last-hours">Last 24 Hours</p>
+                    </article>
+                    <div class="card-diagram">
+                        <svg>
+                            <circle class="card-circle-2" cx="38" cy="38" r="36">
+                            </circle>
+                        </svg>
+                    </div>
+                    <h6>65%</h6>
+                </div>
+                <!-- card-3 -->
+                <div class="card total-income flex">
+                    <article>
+                        <span class="material-icons-sharp card-analytics">
+                            analytics
+                        </span>
+                        <h4>Total Income</h4>
+                        <h3>$25,024</h3>
+                        <br>
+                        <p class="last-hours">Last 24 Hours</p>
+                    </article>
+                    <div class="card-diagram">
+                        <svg>
+                            <circle class="card-circle-3" cx="38" cy="38" r="36">
+                            </circle>
+                        </svg>
+                    </div>
+                    <h6>50%</h6>
+                </div>
+            </div>
+            <!-- --------Order section------- -->
+            <h2>Recent Orders</h2>
+            <section class="table-container">
+                <table>
+                    <thead>
+                        <th>Product Name</th>
+                        <th>Product Number</th>
+                        <th>Payment</th>
+                        <th>Status</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Foldable mini drone</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td>larvender kf102 drone</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td>Ruko f11 pro drone</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td>Drone with camera drone</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td>GPS 4k drone</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td>DJI air 2s</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr>
+                            <td>Lozenge drone</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <p>See all</p>
+        </main>
+
+        <!-- ============right section========= -->
+        <section class="right-section-container">
+            <div class="right-top-menus flex">
+                <div>
+                    <span class="material-icons-sharp">
+                        wb_sunny
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+                <div>
+                    <span class="flex">hey, <h3>Rimon</h3> </span>
+                    <p>Admin</p>
+                </div>
+                <img src="images/softmind-short-logo.png" height="50" width="50" alt="">
+            </div>
+            <!-- recent updates section -->
+            <div class="recent-update-main-container">
+                <h2>Recent Updates</h2>
+                <div class="recent-update-container">
+                    <div class="recent-update">
+                        <img src="images/softmind-short-logo.png" height="40" width="40" alt="">
+                        <article>
+                            <h5>Nurul islam <span> received his order of night lion tech GPS drone.</span></h5>
+                            <p>2 Minutes Ago</p>
+                        </article>
+                    </div>
+                    <div class="recent-update">
+                        <img src="images/softmind-short-logo.png" height="40" width="40" alt="">
+                        <article>
+                            <h5>Nurul islam <span> received his order of night lion tech GPS drone.</span></h5>
+                            <p>2 Minutes Ago</p>
+                        </article>
+                    </div>
+                    <div class="recent-update">
+                        <img src="images/softmind-short-logo.png" height="40" width="40" alt="">
+                        <article>
+                            <h5>Nurul islam <span> received his order of night lion tech GPS drone.</span></h5>
+                            <p>2 Minutes Ago</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- sales analytics section -->
+            <div class="sales-analytics-container">
+                <h2>Sales Analytics</h2>
+                <div class="sales-analytics">
+                    <div class="online-orders flex">
+                        <img src="images/softmind-short-logo.png" height="40" width="40" alt="">
+                        <article>
+                            <h5>ONLINE ORDERS</h5>
+                            <p>2 Minutes Ago</p>
+                        </article>
+                    </div>
+                    <div class="parcentage"> +39%</div>
+                    <div class="amount"> 3849</div>
+                </div>
+                <div class="sales-analytics">
+                    <div class="online-orders flex">
+                        <img src="images/softmind-short-logo.png" height="40" width="40" alt="">
+                        <article>
+                            <h5>ONLINE ORDERS</h5>
+                            <p>2 Minutes Ago</p>
+                        </article>
+                    </div>
+                    <div class="parcentage"> +39%</div>
+                    <div class="amount"> 3849</div>
+                </div>
+                <div class="sales-analytics">
+                    <div class="online-orders flex">
+                        <img src="images/softmind-short-logo.png" height="40" width="40" alt="">
+                        <article>
+                            <h5>ONLINE ORDERS</h5>
+                            <p>2 Minutes Ago</p>
+                        </article>
+                    </div>
+                    <div class="parcentage"> +39%</div>
+                    <div class="amount"> 3849</div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
