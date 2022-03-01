@@ -37,7 +37,7 @@ body{
     background-color: var(--main-bgcolor);
     height: 100vh;
     user-select: none;
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to bottom, var(--gradiant-color-primary), var(--gradiant-color-second));
 }
